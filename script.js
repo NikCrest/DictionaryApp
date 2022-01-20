@@ -32,10 +32,9 @@ async function dictionaryDetails(search) {
     data1.forEach(function (meaning) {
       let { partOfSpeech } = meaning;
       let { definitions } = meaning;
-      definitions.forEach(function (dafination) {
-        const { definition } = dafination;
-        const { example } = dafination;
-        const { synonyms } = dafination;
+        const { definition } = definitions[0];
+        const { example } = definitions[0];
+        const { synonyms } = definitions[0];
 
         let syno = synonyms.slice(0 - 9);
         const synonym =
@@ -49,7 +48,7 @@ async function dictionaryDetails(search) {
     <span class="synonyms"><bold>Synonyms:  </bold> ${synonym}</span><br/><br/>
     </div>`;
         summary.insertAdjacentHTML("beforeend", html);
-      });
+      
     });
   } catch (err) {
     const html = `<br/><br/><h2><error>Please try again with another word!!</error>`;

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap");
+body{
+  background: #616161;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.head {
+  font-family: "Ubuntu", sans-serif;
+  height: 90px;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+  border-radius: 10px;
+}
+bigg {
+  font-size: 60px;
+}
+.form-submit {
+  margin-top: 0;
+  height: 50pzx;
+  align-items: center;
+  display: flex;
+  margin-left: 100px;
+  padding-left: 300px;
+}
+.input {
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+}
+.btn {
+  margin-top: 0px;
+  margin-left: 20px;
+  cursor: pointer;
+  height: 30px;
+  width: max-content;
+  color: black;
+  font-size: 15px;
+  background-color: rgb(240, 235, 227);
+  border-radius: 10px;
+}
+.slider {
+  box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.2);
+  transition: 0.3s;
+  width: 800px;
+  height: max-content;
+  margin-top: 2rem;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   color: white;
+  padding: 20px;
+  overflow: hidden;
+  text-align: left;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.output {
+  font-size: large;
+
+  height: max-content;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+bold {
+  font-weight: bolder;
+}
+.summary {
+  display: block;
+  align-items: center;
+}
+error{
+  border: 2px solid black;
+  background-color: white;
+  color : red ;
+  padding : 20px;
+  margin-top: 200px;
+}
+

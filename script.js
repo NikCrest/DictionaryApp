@@ -20,6 +20,7 @@ function getSynonyms(synonyms) {
 }
 async function dictionaryDetails(search) {
   try {
+    document.querySelector(".input").value = search;
     const word = await fetch(
       `https://api.dictionaryapi.dev/api/v2/entries/en/${search}`
     );
